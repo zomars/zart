@@ -5,9 +5,9 @@ import {
   Text,
   StyleSheet,
   TouchableOpacity,
+  FlatList,
 } from 'react-native';
 import { trpc } from '@zart/react/trpc';
-import { FlatList } from 'react-native';
 
 export function HelloWorld() {
   const posts = trpc.useQuery(['post.all'], {
