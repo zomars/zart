@@ -10,8 +10,8 @@
     "dev": "expo start -c"
   },
   "dependencies": {
-    "@zart/react-native": "*",
     "@zart/api": "*",
+    "@zart/react-native": "*",
     "expo": "~46.0.9",
     "expo-constants": "^13.2.4",
     "expo-status-bar": "~1.4.0",
@@ -19,7 +19,7 @@
     "react-dom": "18.0.0",
     "react-native": "0.69.5",
     "react-native-web": "~0.18.7",
-    "react-query": "^3.39.2"
+    "react-query": "3.23.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
