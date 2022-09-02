@@ -17,12 +17,10 @@
     "prisma-dev": "prisma migrate dev && prisma generate",
     "postinstall": "prisma generate"
   },
-  "workspaces": {
-    "packages": [
-      "packages/*",
-      "apps/*"
-    ]
-  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
   "prettier": {
     "printWidth": 80,
     "trailingComma": "all",
